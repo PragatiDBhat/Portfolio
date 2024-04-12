@@ -37,7 +37,6 @@ Operating Systems (OS) rely heavily on data structures and algorithms to efficie
 #### Process Scheduling:
 Data Structure: The OS uses data structures like queues, priority queues, or lists to manage processes waiting to be executed.
 Algorithm: Various scheduling algorithms such as Round Robin, Shortest Job Next, or Priority Scheduling are implemented to decide the order in which processes are executed.
-
 #### Memory Management:
 Data Structure: Data structures like page tables, memory pools, or linked lists are used to keep track of allocated memory blocks.
 Algorithm: Memory allocation algorithms like First Fit, Best Fit, or Worst Fit determine how memory is allocated and deallocated.
@@ -56,3 +55,15 @@ Algorithm: Routing algorithms such as Dijkstra’s algorithm or Bellman-Ford alg
 #### Security and Encryption:
 Data Structure: Cryptographic algorithms utilize data structures like hash tables or trees for secure key management.
 Algorithm: Encryption algorithms such as AES (Advanced Encryption Standard) ensure data security during transmission and storage.
+
+
+###Segment Trees in Operating System Functionalities:
+
+In operating system functionalities, Segment Trees can be used in various scenarios where efficient range queries and updates are required. Here are some areas where Segment Trees can be beneficial:
+1. Memory Management
+2. File System
+3. Process Scheduling
+
+   
+Here is my code for segment tree construction as well as query to fined sum between a given range.
+[Union-Find](https://github.com/prakashbh/day-today-codes/blob/master/10-union-find-basic.c) 
