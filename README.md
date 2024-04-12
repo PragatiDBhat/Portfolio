@@ -91,4 +91,4 @@ First-Fit Allocation can be used for memory allocation purposes.The First-Fit te
 3. Fast allocation of memory
 
 Here is my code for first-fit allocation.
-[First Fit] (https://github.com/PragatiDBhat/Portfolio/blob/main/hotelqueries.cpp)
+[First Fit](https://github.com/PragatiDBhat/Portfolio/blob/main/hotelquery.cpp)
