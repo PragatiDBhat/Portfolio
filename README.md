@@ -57,7 +57,7 @@ Data Structure: Cryptographic algorithms utilize data structures like hash table
 Algorithm: Encryption algorithms such as AES (Advanced Encryption Standard) ensure data security during transmission and storage.
 
 
-###Segment Trees in Operating System Functionalities:
+### Segment Trees in Operating System Functionalities:
 
 In operating system functionalities, Segment Trees can be used in various scenarios where efficient range queries and updates are required. Here are some areas where Segment Trees can be beneficial:
 1. Memory Management
@@ -69,7 +69,7 @@ Here is my code for segment tree construction as well as query to fined sum betw
 [Segment Trees](https://github.com/PragatiDBhat/Portfolio/blob/main/dynamicrangequeries.cpp)
 
 
-###Operating System Applications of Red-Black Trees:
+### Operating System Applications of Red-Black Trees:
 
 Red-Black trees can be used in operating systems for various purposes such as:
 1. File Systems
@@ -80,7 +80,7 @@ Red-Black trees can be used in operating systems for various purposes such as:
    [Red-Black Tree]
 
 
-###First Fit
+### First Fit
 
 First-Fit Allocation can be used for memory allocation purposes.The First-Fit technique involves searching through a list of free memory blocks from the beginning until a block large enough to accommodate the memory request is found. Once a suitable block is identified, it is split into two parts: one part allocated to the process and the other remaining as free memory.
 
@@ -91,4 +91,4 @@ First-Fit Allocation can be used for memory allocation purposes.The First-Fit te
 3. Fast allocation of memory
 
 Here is my code for first-fit allocation.
-[First Fit] 
+[First Fit] (https://github.com/PragatiDBhat/Portfolio/blob/main/hotelqueries.cpp)
