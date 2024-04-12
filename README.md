@@ -1,4 +1,3 @@
-# Portfolio.github.io
 # Operating System
 
 <dl>
@@ -84,7 +83,7 @@ Red-Black trees can be used in operating systems for various purposes such as:
 
 First-Fit Allocation can be used for memory allocation purposes.The First-Fit technique involves searching through a list of free memory blocks from the beginning until a block large enough to accommodate the memory request is found. Once a suitable block is identified, it is split into two parts: one part allocated to the process and the other remaining as free memory.
 
-####Advantages of Using First-Fit Allocation in Operating Systems:
+#### Advantages of Using First-Fit Allocation in Operating Systems:
 
 1. Simple and efficient search algorithm
 2. Minimizes memory fragmentation
