@@ -66,4 +66,29 @@ In operating system functionalities, Segment Trees can be used in various scenar
 
    
 Here is my code for segment tree construction as well as query to fined sum between a given range.
-[Union-Find](https://github.com/prakashbh/day-today-codes/blob/master/10-union-find-basic.c) 
+[Segment Trees](https://github.com/PragatiDBhat/Portfolio/blob/main/dynamicrangequeries.cpp)
+
+
+###Operating System Applications of Red-Black Trees:
+
+Red-Black trees can be used in operating systems for various purposes such as:
+1. File Systems
+2. Memory Management
+3. Process Scheduling
+
+   Here is my code for red-black trees.
+   [Red-Black Tree]
+
+
+###First Fit
+
+First-Fit Allocation can be used for memory allocation purposes.The First-Fit technique involves searching through a list of free memory blocks from the beginning until a block large enough to accommodate the memory request is found. Once a suitable block is identified, it is split into two parts: one part allocated to the process and the other remaining as free memory.
+
+####Advantages of Using First-Fit Allocation in Operating Systems:
+
+1. Simple and efficient search algorithm
+2. Minimizes memory fragmentation
+3. Fast allocation of memory
+
+Here is my code for first-fit allocation.
+[First Fit] 
