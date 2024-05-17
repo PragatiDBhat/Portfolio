@@ -99,7 +99,7 @@ In operating systems, Dijkstra's algorithm is utilized for tasks such as network
 2. Resource Allocation: Operating systems often need to allocate resources efficiently. Dijkstra's algorithm can be adapted to allocate resources such as memory or CPU time based on certain criteria, ensuring that the resources are distributed optimally and fairly among competing processes or tasks.
 
 Here is my code for Dijkstra's algorithm.
-[Dijkstra's Algorithm](https://github.com/PragatiDBhat/Portfolio/blob/main/bplusstree.cpp)
+[Dijkstra's Algorithm](https://github.com/PragatiDBhat/Portfolio/blob/main/dijkstra.c)
 ### Skip List
 
 Operating systems can utilize skip lists for various purposes, primarily in data structures and algorithms for efficient searching, indexing, and managing dynamic data. 
