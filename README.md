@@ -99,8 +99,7 @@ In operating systems, Dijkstra's algorithm is utilized for tasks such as network
 2. Resource Allocation: Operating systems often need to allocate resources efficiently. Dijkstra's algorithm can be adapted to allocate resources such as memory or CPU time based on certain criteria, ensuring that the resources are distributed optimally and fairly among competing processes or tasks.
 
 Here is my code for Dijkstra's algorithm.
-[Dijkstra's Algorithm]
-
+[Dijkstra's Algorithm](https://github.com/PragatiDBhat/Portfolio/blob/main/bplusstree.cpp)
 ### Skip List
 
 Operating systems can utilize skip lists for various purposes, primarily in data structures and algorithms for efficient searching, indexing, and managing dynamic data. 
@@ -111,7 +110,7 @@ Operating systems can utilize skip lists for various purposes, primarily in data
 5. Kernel Data Structures: Integrated into various kernel data structures, they optimize storage and retrieval of information, enhancing overall system performance.
 
 Here us my code for skip list.
-[Skip List]
+[Skip List](https://github.com/PragatiDBhat/Portfolio/blob/main/skiplist.cpp)
 
 ### B+ Trees
 
@@ -123,7 +122,7 @@ Operating systems can leverage B+ trees for efficient storage and retrieval of d
 5. Kernel Data Structures: Integrated into kernel data structures, B+ trees optimize storage and retrieval of information, enhancing overall system performance.
 
 Here is my code for B+ Tree.
-[B+ Tree]
+[B+ Tree](https://github.com/PragatiDBhat/Portfolio/blob/main/bplusstree.cpp)
 
 ### Bin-Packing Algorithm
 
@@ -135,7 +134,7 @@ Operating systems use first-fit to quickly find a suitable memory block for a pr
 However, it may lead to memory fragmentation, as smaller leftover memory chunks may not be efficiently utilized.
 
 Here is my code for First-Fit Algorithm.
-[First-Fit 2]
+[First-Fit 2](https://github.com/PragatiDBhat/Portfolio/blob/main/firstfit.cpp)
 
 2. Best-Fit Algorithm:
 The best-fit algorithm allocates memory to the smallest available block that is large enough to satisfy the request.
@@ -143,7 +142,7 @@ Operating systems use best-fit to minimize wasted memory by selecting the most a
 While it reduces fragmentation compared to first-fit, it requires more extensive searching, potentially impacting performance.
 
 Here is my code for Best-Fit Algorithm.
-[Best-Fit]
+[Best-Fit](https://github.com/PragatiDBhat/Portfolio/blob/main/bestfit.cpp)
 
 3. Worst-Fit Algorithm:
 The worst-fit algorithm allocates memory to the largest available block that can accommodate the request.
@@ -151,4 +150,4 @@ Operating systems use worst-fit to minimize the creation of large, unusable memo
 However, it tends to produce more fragmentation compared to first-fit and best-fit, as it leaves behind smaller leftover memory chunks.
 
 Here is my code for Worst-Fit algorithm
-[Worst-Fit]
+[Worst-Fit](https://github.com/PragatiDBhat/Portfolio/blob/main/worstfit.cpp)
