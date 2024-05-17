@@ -91,3 +91,69 @@ First-Fit Allocation can be used for memory allocation purposes.The First-Fit te
 
 Here is my code for first-fit allocation.
 [First Fit](https://github.com/PragatiDBhat/Portfolio/blob/main/hotelquery.cpp)
+
+### Dijkstra Algorithm
+
+In operating systems, Dijkstra's algorithm is utilized for tasks such as network routing and resource allocation. It determines the shortest path between nodes in a network, facilitating efficient packet transmission. Moreover, it aids in distributing resources like memory and CPU time optimally among processes, thereby improving system performance and resource utilization.
+
+##### Network Routing: 
+In an operating system, when a packet needs to be sent from one node to another in a network, Dijkstra's algorithm can be used to determine the shortest path through the network. The kernel or network stack maintains a routing table, and Dijkstra's algorithm helps update this table with the shortest paths to different network destinations based on various metrics like hop count or link cost.
+
+##### Resource Allocation: 
+Operating systems often need to allocate resources efficiently. Dijkstra's algorithm can be adapted to allocate resources such as memory or CPU time based on certain criteria, ensuring that the resources are distributed optimally and fairly among competing processes or tasks.
+
+Here is my code for Dijkstra's algorithm.
+[Dijkstra's Algorithm]
+
+### Skip List
+
+Operating systems can utilize skip lists for various purposes, primarily in data structures and algorithms for efficient searching, indexing, and managing dynamic data. 
+
+1. File System Indexing: Skip lists aid in efficiently indexing and searching files within the file system hierarchy.
+2. Process Scheduling: They facilitate quick sorting and management of processes based on priority or other criteria for efficient scheduling.
+3. Memory Management: Skip lists enable fast retrieval and allocation of memory blocks, enhancing memory management.
+4. Caching: Utilized for storing frequently accessed data, skip lists help in rapid identification and management of cache entries.
+5. Kernel Data Structures: Integrated into various kernel data structures, they optimize storage and retrieval of information, enhancing overall system performance.
+
+Here us my code for skip list.
+[Skip List]
+
+### B+ Trees
+
+1. Operating systems can leverage B+ trees for efficient storage and retrieval of data in various scenarios, especially in file systems and database management systems.
+2. File System Indexing: B+ trees enable fast lookup and organization of file metadata, enhancing file system efficiency.
+3. Database Management Systems (DBMS): They facilitate efficient storage and retrieval of data records in DBMS, supporting quick search and manipulation operations.
+4. Disk Space Management: B+ trees aid in tracking free disk space and managing disk block allocation, optimizing storage resource utilization.
+5. Virtual Memory Management: They help manage page tables efficiently in virtual memory systems, ensuring rapid translation of virtual addresses to physical addresses.
+6. Kernel Data Structures: Integrated into kernel data structures, B+ trees optimize storage and retrieval of information, enhancing overall system performance.
+
+Here is my code for B+ Tree.
+[B+ Tree]
+
+### Bin-Packing Algorithm
+
+Operating systems can employ various bin packing algorithms, such as first-fit, best-fit, and worst-fit, for memory allocation and management. 
+
+1. First-Fit Algorithm:
+In memory management, the first-fit algorithm assigns incoming memory requests to the first available memory block that is large enough to accommodate the request.
+Operating systems use first-fit to quickly find a suitable memory block for a process or data structure, reducing search time.
+However, it may lead to memory fragmentation, as smaller leftover memory chunks may not be efficiently utilized.
+
+Here is my code for First-Fit Algorithm.
+[First-Fit 2]
+
+3. Best-Fit Algorithm:
+The best-fit algorithm allocates memory to the smallest available block that is large enough to satisfy the request.
+Operating systems use best-fit to minimize wasted memory by selecting the most appropriately sized block for each request.
+While it reduces fragmentation compared to first-fit, it requires more extensive searching, potentially impacting performance.
+
+Here is my code for Best-Fit Algorithm.
+[Best-Fit]
+
+3.Worst-Fit Algorithm:
+The worst-fit algorithm allocates memory to the largest available block that can accommodate the request.
+Operating systems use worst-fit to minimize the creation of large, unusable memory fragments.
+However, it tends to produce more fragmentation compared to first-fit and best-fit, as it leaves behind smaller leftover memory chunks.
+
+Here is my code for Worst-Fit algorithm
+[Worst-Fit]
