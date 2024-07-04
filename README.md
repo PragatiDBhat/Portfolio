@@ -30,35 +30,13 @@ Modern multiprocessing operating systems allow many processes to be active, wher
 11. Resource allocation
 12. Accounting
 
-### How OS Uses Data Structures and Algorithms to Manage Everything?
-Operating Systems (OS) rely heavily on data structures and algorithms to efficiently manage various aspects of the system. Here are some key ways in which data structures and algorithms are utilized by an OS:
-
-#### Process Scheduling:
-Data Structure: The OS uses data structures like queues, priority queues, or lists to manage processes waiting to be executed.
-Algorithm: Various scheduling algorithms such as Round Robin, Shortest Job Next, or Priority Scheduling are implemented to decide the order in which processes are executed.
-#### Memory Management:
-Data Structure: Data structures like page tables, memory pools, or linked lists are used to keep track of allocated memory blocks.
-Algorithm: Memory allocation algorithms like First Fit, Best Fit, or Worst Fit determine how memory is allocated and deallocated.
-#### File System Management:
-Data Structure: File systems use tree-like structures such as B-trees or hash tables to organize and store file metadata efficiently.
-Algorithm: Algorithms like indexing methods (e.g., B+ trees for indexing file blocks) are employed for fast file retrieval.
-#### Device Management:
-Data Structure: The OS maintains data structures like queues or buffers to manage I/O requests from devices.
-Algorithm: Disk scheduling algorithms (e.g., SCAN, C-SCAN) optimize the order in which disk requests are serviced.
-#### Virtual Memory Management:
-Data Structure: Page tables and TLBs (Translation Lookaside Buffers) are used to map virtual addresses to physical addresses.
-Algorithm: Paging algorithms like LRU (Least Recently Used) help in efficient page replacement strategies.
-#### Network Communication:
-Data Structure: Data packets are often managed using queues or buffers before transmission.
-Algorithm: Routing algorithms such as Dijkstra’s algorithm or Bellman-Ford algorithm determine the best path for packet delivery.
-#### Security and Encryption:
-Data Structure: Cryptographic algorithms utilize data structures like hash tables or trees for secure key management.
-Algorithm: Encryption algorithms such as AES (Advanced Encryption Standard) ensure data security during transmission and storage.
+### How OS Uses Data Structures and Algorithms ?
+Data structures play a crucial role in operating systems by enabling efficient storage and retrieval of data. They are fundamental components that help the operating system perform various tasks such as job scheduling, memory management, storing instructions, and managing resources effectively. Operating systems rely on different data structures to organize and manipulate data efficiently, enhancing performance and optimizing resource utilization.
 
 
 ### Segment Trees in Operating System Functionalities:
 
-In operating system functionalities, Segment Trees can be used in various scenarios where efficient range queries and updates are required. Here are some areas where Segment Trees can be beneficial:
+In operating system functionalities, Segment Trees can be used in various scenarios where efficient range queries and updates are required. The construction of segment tree has time complexity of O(n), querying and updating takes O(logn) time. Segment trees can be used in the following functions:
 1. Memory Management
 2. File System
 3. Process Scheduling
@@ -70,11 +48,13 @@ Here is my code for segment tree construction as well as query to fined sum betw
 
 ### Operating System Applications of Red-Black Trees:
 
-Red-Black trees can be used in operating systems for various purposes such as:
+Red-Black tress are preferred for balanced height, complexity in operation and less rotaions compared to AVL trees.Red-Black trees can be used in operating systems for various purposes such as:
 1. File Systems
 2. Memory Management
 3. Process Scheduling
 
+Time complexit: O(logn)
+Space complexity: O(n)
    Here is my code for red-black trees.
    [Red-Black Tree](https://github.com/PragatiDBhat/Portfolio/blob/main/red-black.cpp)
 
