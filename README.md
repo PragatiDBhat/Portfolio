@@ -12,6 +12,9 @@
 </dl>
 
 ## Introduction
+![OS Image](Photos/Operating systems.jpeg)
+
+
 An operating system is like the manager of a computer. It handles everything the computer does, from running programs to using its hardware like the screen and keyboard. It's the link between the software like apps, and the physical parts inside the computer. Examples include Windows, Linux, and Mac OS. Overall, it's essential software that keeps your computer running smoothly and makes sure everything works together.
 
 ### Functionalities of Operating System
