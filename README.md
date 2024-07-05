@@ -126,7 +126,7 @@ WOA has been successfully applied to various fields, including:
 The algorithm's simplicity, flexibility, and efficiency make it a popular choice for solving complex optimization problems.
 
 
-Sure! Here is a simplified version of the table with only the time and space complexities:
+### Time and Space Complexities
 
 | **Algorithm**                         | **Time Complexity**                            | **Space Complexity**                          |
 |---------------------------------------|------------------------------------------------|-----------------------------------------------|
