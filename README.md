@@ -25,7 +25,7 @@
 <table style="background-color: transparent; border-collapse: collapse; width: 100%;">
   <tr>
     <td style="padding: 20px; width: 30%; vertical-align: top;">
-      <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/d997c647-0eb9-4335-b7b8-28d1e4aeaf33" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
+      <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/d997c647-0eb9-4335-b7b8-28d1e4aeaf33" alt="Functionalities" style="max-width: 70%; height: auto; border-radius: 8px;">
     </td>
     <td style="padding: 20px; width: 70%; vertical-align: top;">
       <ul>
