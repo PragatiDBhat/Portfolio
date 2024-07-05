@@ -12,9 +12,7 @@
 </dl>
 
 ## Introduction
-Operating system (OS), program that manages a computer’s resources, especially the allocation of those resources among other programs. Typical resources include the central processing unit (CPU), computer memory, file storage, input/output (I/O) devices, and network connections. Management tasks include scheduling resource use to avoid conflicts and interference between programs. Unlike most programs, which complete a task and terminate, an operating system runs indefinitely and terminates only when the computer is turned off.
-
-Modern multiprocessing operating systems allow many processes to be active, where each process is a “thread” of computation being used to execute a program. One form of multiprocessing is called time-sharing, which lets many users share computer access by rapidly switching between them. Time-sharing must guard against interference between users’ programs, and most systems use virtual memory, in which the memory, or “address space,” used by a program may reside in secondary memory (such as on a magnetic hard disk drive) when not in immediate use, to be swapped back to occupy the faster main computer memory on demand. This virtual memory both increases the address space available to a program and helps to prevent programs from interfering with each other, but it requires careful control by the operating system and a set of allocation tables to keep track of memory use. Perhaps the most delicate and critical task for a modern operating system is allocation of the CPU; each process is allowed to use the CPU for a limited time, which may be a fraction of a second, and then must give up control and become suspended until its next turn. Switching between processes must itself use the CPU while protecting all data of the processes.
+An operating system is like the manager of a computer. It handles everything the computer does, from running programs to using its hardware like the screen and keyboard. It's the link between the software like apps, and the physical parts inside the computer. Examples include Windows, Linux, and Mac OS. Overall, it's essential software that keeps your computer running smoothly and makes sure everything works together.
 
 ### Functionalities of Operating System
 1. Memory management
@@ -33,101 +31,127 @@ Modern multiprocessing operating systems allow many processes to be active, wher
 ### How OS Uses Data Structures and Algorithms ?
 Data structures play a crucial role in operating systems by enabling efficient storage and retrieval of data. They are fundamental components that help the operating system perform various tasks such as job scheduling, memory management, storing instructions, and managing resources effectively. Operating systems rely on different data structures to organize and manipulate data efficiently, enhancing performance and optimizing resource utilization.
 
+## Foloowing Business cases are identified and presented.
 
-### Segment Trees in Operating System Functionalities:
+### Resource management
+Efficiently allocating CPU, memory, and I/O resources ensures that business applications run smoothly without interference, maximizing productivity. Some of the algorithms that can be used for this functionality are:
+1. Segment Trees - Useful for range queries and updates, optimizing resource allocation in real-time.
+2. Red-Black Trees - Balances resource management data structures for efficient insertion, deletion, and lookup operations.
+3. Bin-Packing Algorithm
+   - **First-fit** - Quickly allocates resources to the first available slot, enhancing allocation speed.
+   - **Best-fit** - Minimizes wasted resources by placing them in the tightest available slot.
+   - **Worst-fit** - Distributes resources to the largest available slot to balance load over time.
 
-In operating system functionalities, Segment Trees can be used in various scenarios where efficient range queries and updates are required. The construction of segment tree has time complexity of O(n), querying and updating takes O(logn) time. Segment trees can be used in the following functions:
-1. Memory Management
-2. File System
-3. Process Scheduling
+
+### Security
+Operating systems provide security features such as access control, encryption, and firewall management to protect sensitive business data and systems from unauthorized access and cyber threats. Data structures and algorithms leveraged for this are:
+1. Aho-Corasick Algorithm - Efficiently detects patterns in large datasets, aiding in intrusion detection systems.
+2. Binary Search Tree - Provides quick access and management of security keys and certificates.
 
    
-Here is my code for segment tree construction as well as query to fined sum between a given range.
-[Segment Trees](https://github.com/PragatiDBhat/Portfolio/blob/main/dynamicrangequeries.cpp)
+### Network management
+Facilitating network routing and data transmission ensures reliable connectivity between business units, remote offices, and clients, supporting seamless communication and collaboration. The following least path algorithms can be used:
+1. Dijkstra's Algorithm - Finds the shortest path in a network, optimizing data routing.
+2. Ant Colony Optimization Algorithm - Mimics the behavior of ants to find optimal paths and manage network traffic dynamically.
+3. A Search Algorithm* - Combines heuristics and path cost to find the most efficient route in a network.
+4. Bellman-Ford Algorithm - Handles routing in networks with negative weight edges, ensuring reliable connectivity.
 
 
-### Operating System Applications of Red-Black Trees:
-
-Red-Black tress are preferred for balanced height, complexity in operation and less rotaions compared to AVL trees.Red-Black trees can be used in operating systems for various purposes such as:
-1. File Systems
-2. Memory Management
-3. Process Scheduling
-
-Time complexit: O(logn)
-Space complexity: O(n)
-   Here is my code for red-black trees.
-   [Red-Black Tree](https://github.com/PragatiDBhat/Portfolio/blob/main/red-black.cpp)
+### File management
+Organizing and managing files across storage devices ensures quick access to business-critical data, supporting efficient workflows and decision-making. The following algorithms can be applied for this functionality:
+1. Trie Data Structure - Efficiently stores and retrieves large sets of strings, aiding in file search and organization.
+2. B+ Trees - Provides balanced and efficient access to file records, enhancing database performance.
 
 
-### First Fit
+### Virtualization
+Operating systems support virtualization technologies, enabling businesses to consolidate servers, optimize resource utilization, and reduce hardware costs while maintaining performance and scalability.
+1. Segment Trees - Efficiently manages resources allocated to virtual machines, enabling dynamic allocation.
+2. Binary Search Trees (BST) - Organizes virtual machine resources for efficient allocation and retrieval.
 
-First-Fit Allocation can be used for memory allocation purposes.The First-Fit technique involves searching through a list of free memory blocks from the beginning until a block large enough to accommodate the memory request is found. Once a suitable block is identified, it is split into two parts: one part allocated to the process and the other remaining as free memory.
+### Application support
+Providing compatibility and support for various business applications ensures employees can use essential tools for tasks ranging from accounting and customer management to creative design and data analysis.
+1. Hash Tables - Offers fast access to application data and configurations.
+2. BFS and DFS - Traverses application dependencies and structures, ensuring efficient execution.
 
-#### Advantages of Using First-Fit Allocation in Operating Systems:
+### Backup and recovery
+Operating systems facilitate automated backup processes and recovery procedures, safeguarding against data loss due to hardware failures, human error, or malicious activities.
+1. Skip List - Provides efficient access and update operations for backup indices.
+2. Union-Find - Manages backup versions and relationships, simplifying recovery processes.
 
-1. Simple and efficient search algorithm
-2. Minimizes memory fragmentation
-3. Fast allocation of memory
+### Compliance and governance
+Ensuring operating systems adhere to industry regulations and standards (such as HIPAA, GDPR) helps businesses avoid legal liabilities and reputational damage related to data privacy and security breaches.
+1. Stable Marriage Problem - Ensures fair resource allocation and compliance processes.
+2. Topological Sorting - Orders tasks and dependencies to comply with regulations.
+3. Kruskal's Algorithm - Builds minimal compliance networks ensuring all requirements are met efficiently.
 
-Here is my code for first-fit allocation.
-[First Fit](https://github.com/PragatiDBhat/Portfolio/blob/main/hotelquery.cpp)
 
-### Dijkstra Algorithm
+### Real-time processing
+Operating systems with real-time capabilities support industries like finance, manufacturing, and telecommunications, where timely data processing and response are critical for operations and customer service.
+1. Heap Data Structure - Manages real-time task scheduling with efficient priority queue operations.
+2. Fenwick Trees - Provides efficient updates and queries for real-time data processing.
 
-In operating systems, Dijkstra's algorithm is utilized for tasks such as network routing and resource allocation. It determines the shortest path between nodes in a network, facilitating efficient packet transmission. Moreover, it aids in distributing resources like memory and CPU time optimally among processes, thereby improving system performance and resource utilization.
-1. Network Routing: In an operating system, when a packet needs to be sent from one node to another in a network, Dijkstra's algorithm can be used to determine the shortest path through the network. The kernel or network stack maintains a routing table, and Dijkstra's algorithm helps update this table with the shortest paths to different network destinations based on various metrics like hop count or link cost.
-2. Resource Allocation: Operating systems often need to allocate resources efficiently. Dijkstra's algorithm can be adapted to allocate resources such as memory or CPU time based on certain criteria, ensuring that the resources are distributed optimally and fairly among competing processes or tasks.
 
-Here is my code for Dijkstra's algorithm.
-[Dijkstra's Algorithm](https://github.com/PragatiDBhat/Portfolio/blob/main/dijkstra.c)
-### Skip List
+### Facilitating management and logistics
+Identifying the shortest paths or least-cost routes for transporting goods between warehouses, distribution centers, and retail outlets. Optimizing the layout of manufacturing plants or warehouses to minimize transportation costs and maximize operational efficiency.
+1. Floyd-Warshall Algorithm - Computes shortest paths between all pairs of locations, optimizing logistics routes.
+2. Traveling Salesman Problem - Finds the most efficient route for goods transportation, minimizing travel cost and time.
 
-Operating systems can utilize skip lists for various purposes, primarily in data structures and algorithms for efficient searching, indexing, and managing dynamic data. 
-1. File System Indexing: Skip lists aid in efficiently indexing and searching files within the file system hierarchy.
-2. Process Scheduling: They facilitate quick sorting and management of processes based on priority or other criteria for efficient scheduling.
-3. Memory Management: Skip lists enable fast retrieval and allocation of memory blocks, enhancing memory management.
-4. Caching: Utilized for storing frequently accessed data, skip lists help in rapid identification and management of cache entries.
-5. Kernel Data Structures: Integrated into various kernel data structures, they optimize storage and retrieval of information, enhancing overall system performance.
 
-Here us my code for skip list.
-[Skip List](https://github.com/PragatiDBhat/Portfolio/blob/main/skiplist.cpp)
+## Bonus
+These days, everyone is focused on optimization, whether it involves VNF scheduling and consolidation or any machine learning project.
 
-### B+ Trees
+### Whale Optimization Algorithm
 
-Operating systems can leverage B+ trees for efficient storage and retrieval of data in various scenarios, especially in file systems and database management systems.
-1. File System Indexing: B+ trees enable fast lookup and organization of file metadata, enhancing file system efficiency.
-2. Database Management Systems (DBMS): They facilitate efficient storage and retrieval of data records in DBMS, supporting quick search and manipulation operations.
-3. Disk Space Management: B+ trees aid in tracking free disk space and managing disk block allocation, optimizing storage resource utilization.
-4. Virtual Memory Management: They help manage page tables efficiently in virtual memory systems, ensuring rapid translation of virtual addresses to physical addresses.
-5. Kernel Data Structures: Integrated into kernel data structures, B+ trees optimize storage and retrieval of information, enhancing overall system performance.
+The Whale Optimization Algorithm (WOA) is a nature-inspired optimization technique developed by Seyedali Mirjalili and Andrew Lewis in 2016. It mimics the hunting behavior of humpback whales, particularly their unique bubble-net feeding strategy.
 
-Here is my code for B+ Tree.
-[B+ Tree](https://github.com/PragatiDBhat/Portfolio/blob/main/bplusstree.cpp)
+### Key Features of the Whale Optimization Algorithm
 
-### Bin-Packing Algorithm
+1. **Encircling Prey:** Whales identify the location of prey and encircle it. In WOA, this behavior is modeled mathematically to update the positions of search agents.
 
-Operating systems can employ various bin packing algorithms, such as first-fit, best-fit, and worst-fit, for memory allocation and management. 
+2. **Bubble-Net Attacking Method:**
+   - **Shrinking Encircling Mechanism:** The distance between the whale and the prey is reduced over iterations, allowing the algorithm to explore the search space more effectively.
+   - **Spiral Updating Position:** Whales follow a spiral-shaped path towards the prey, which helps in refining the search process and enhances exploitation capabilities.
 
-1. First-Fit Algorithm:
-In memory management, the first-fit algorithm assigns incoming memory requests to the first available memory block that is large enough to accommodate the request.
-Operating systems use first-fit to quickly find a suitable memory block for a process or data structure, reducing search time.
-However, it may lead to memory fragmentation, as smaller leftover memory chunks may not be efficiently utilized.
+3. **Search for Prey (Exploration):** To ensure a balance between exploration and exploitation, WOA randomly selects between shrinking encircling and spiral updating positions. This stochastic behavior helps in diversifying the search agents' movements, avoiding local optima.
 
-Here is my code for First-Fit Algorithm.
-[First-Fit 2](https://github.com/PragatiDBhat/Portfolio/blob/main/firstfit.cpp)
+### Applications
 
-2. Best-Fit Algorithm:
-The best-fit algorithm allocates memory to the smallest available block that is large enough to satisfy the request.
-Operating systems use best-fit to minimize wasted memory by selecting the most appropriately sized block for each request.
-While it reduces fragmentation compared to first-fit, it requires more extensive searching, potentially impacting performance.
+WOA has been successfully applied to various fields, including:
+- Engineering design optimization
+- Feature selection in machine learning
+- VNF scheduling and consolidation
+- Image processing
+- Robotics
 
-Here is my code for Best-Fit Algorithm.
-[Best-Fit](https://github.com/PragatiDBhat/Portfolio/blob/main/bestfit.cpp)
+The algorithm's simplicity, flexibility, and efficiency make it a popular choice for solving complex optimization problems.
 
-3. Worst-Fit Algorithm:
-The worst-fit algorithm allocates memory to the largest available block that can accommodate the request.
-Operating systems use worst-fit to minimize the creation of large, unusable memory fragments.
-However, it tends to produce more fragmentation compared to first-fit and best-fit, as it leaves behind smaller leftover memory chunks.
 
-Here is my code for Worst-Fit algorithm
-[Worst-Fit](https://github.com/PragatiDBhat/Portfolio/blob/main/worstfit.cpp)
+Sure! Here is a simplified version of the table with only the time and space complexities:
+
+| **Algorithm**                         | **Time Complexity**                            | **Space Complexity**                          |
+|---------------------------------------|------------------------------------------------|-----------------------------------------------|
+| **Segment Trees**                     | Build: O(n log n), Query/Update: O(log n)      | O(n)                                          |
+| **Red-Black Trees**                   | Insert/Delete/Search: O(log n)                 | O(n)                                          |
+| **First-fit (Bin-Packing)**           | O(n log n)                                     | O(n)                                          |
+| **Best-fit (Bin-Packing)**            | O(n log n)                                     | O(n)                                          |
+| **Worst-fit (Bin-Packing)**           | O(n log n)                                     | O(n)                                          |
+| **Aho-Corasick Algorithm**            | Build: O(m), Search: O(n + z)                  | O(m)                                          |
+| **Binary Search Tree**                | Insert/Delete/Search: O(log n) avg, O(n) worst | O(n)                                          |
+| **Dijkstra's Algorithm**              | O((V + E) log V)                               | O(V^2)                                        |
+| **Ant Colony Optimization Algorithm** | O(n^3) per iteration                           | O(n^2)                                        |
+| **A* Search Algorithm**               | O(E)                                           | O(E)                                          |
+| **Bellman-Ford Algorithm**            | O(VE)                                          | O(V)                                          |
+| **Trie Data Structure**               | Insert/Search: O(m)                            | O(m) per node                                 |
+| **B+ Trees**                          | Insert/Delete/Search: O(log n)                 | O(n)                                          |
+| **Hash Tables**                       | Insert/Delete/Search: O(1) avg                 | O(n)                                          |
+| **BFS and DFS**                       | O(V + E)                                       | O(V)                                          |
+| **Skip List**                         | Insert/Delete/Search: O(log n)                 | O(n)                                          |
+| **Union-Find**                        | Union/Find: O(α(n))                            | O(n)                                          |
+| **Stable Marriage Problem**           | O(n^2)                                         | O(n^2)                                        |
+| **Topological Sorting**               | O(V + E)                                       | O(V)                                          |
+| **Kruskal's Algorithm**               | O(E log E)                                     | O(E + V)                                      |
+| **Heap Data Structure**               | Insert/Delete/Extract-Min: O(log n)            | O(n)                                          |
+| **Fenwick Trees**                     | Build: O(n log n), Update/Query: O(log n)      | O(n)                                          |
+| **Floyd-Warshall Algorithm**          | O(V^3)                                         | O(V^2)                                        |
+| **Traveling Salesman Problem**        | O(n^2 * 2^n) using DP                          | O(n * 2^n)                                    |
+
