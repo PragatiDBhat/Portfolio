@@ -12,24 +12,41 @@
 </dl>
 
 ## Introduction
-![OS Image](Photos/Operating systems.jpeg)
+
+<div style="display: flex; align-items: center;">
+  <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/f7c6fe71-47c5-4e60-9e0a-1e5b0e631748" alt="Operating systems" style="width: 1000px; height: 500px; margin-right: 20px; margin-left:20px;"/>
+  <p>An operating system is like the manager of a computer. It handles everything the computer does, from running programs to using its hardware like the screen and keyboard. It's the link between the software like apps, and the physical parts inside the computer. Examples include Windows, Linux, and Mac OS. Overall, it's essential software that keeps your computer running smoothly and makes sure everything works together.</p>
+</div>
 
 
-An operating system is like the manager of a computer. It handles everything the computer does, from running programs to using its hardware like the screen and keyboard. It's the link between the software like apps, and the physical parts inside the computer. Examples include Windows, Linux, and Mac OS. Overall, it's essential software that keeps your computer running smoothly and makes sure everything works together.
 
 ### Functionalities of Operating System
-1. Memory management
-2. Process scheduling
-3. Error detection and handling
-4. I/O management
-5. Device management
-6. File management
-7. Security
-8. System monitoring
-9. Network management
-10. User Interface
-11. Resource allocation
-12. Accounting
+
+<table style="background-color: transparent; border-collapse: collapse; width: 100%;">
+  <tr>
+    <td style="padding: 20px; width: 30%; vertical-align: top;">
+      <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/d997c647-0eb9-4335-b7b8-28d1e4aeaf33" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
+    </td>
+    <td style="padding: 20px; width: 70%; vertical-align: top;">
+      <ul>
+        <li>Memory management</li>
+        <li>Process scheduling</li>
+        <li>Error detection and handling</li>
+        <li>I/O management</li>
+        <li>Device management</li>
+        <li>File management</li>
+        <li>Security</li>
+        <li>System monitoring</li>
+        <li>Network management</li>
+        <li>User Interface</li>
+        <li>Resource allocation</li>
+        <li>Accounting</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
+
 
 ### How OS Uses Data Structures and Algorithms ?
 Data structures play a crucial role in operating systems by enabling efficient storage and retrieval of data. They are fundamental components that help the operating system perform various tasks such as job scheduling, memory management, storing instructions, and managing resources effectively. Operating systems rely on different data structures to organize and manipulate data efficiently, enhancing performance and optimizing resource utilization.
@@ -104,8 +121,19 @@ Identifying the shortest paths or least-cost routes for transporting goods betwe
 These days, everyone is focused on optimization, whether it involves VNF scheduling and consolidation or any machine learning project.
 
 ### Whale Optimization Algorithm
+<table style="background-color: transparent; border-collapse: collapse; width: 100%;">
+  <tr>
+    <!-- Image Column -->
+    <td style="padding: 20px; width: 30%; vertical-align: top;">
+      <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/cc783bfa-5f44-496a-8ced-8acfee28c8bf" alt="Whale Optimization" style="max-width: 100%; height: auto; border-radius: 8px;">
+    </td>
+    <!-- Text Column -->
+    <td style="padding: 20px; width: 70%; vertical-align: top;">
+      <p>The Whale Optimization Algorithm (WOA) is a nature-inspired optimization technique developed by Seyedali Mirjalili and Andrew Lewis in 2016. It mimics the hunting behavior of humpback whales, particularly their unique bubble-net feeding strategy.</p>
+    </td>
+  </tr>
+</table>
 
-The Whale Optimization Algorithm (WOA) is a nature-inspired optimization technique developed by Seyedali Mirjalili and Andrew Lewis in 2016. It mimics the hunting behavior of humpback whales, particularly their unique bubble-net feeding strategy.
 
 ### Key Features of the Whale Optimization Algorithm
 
