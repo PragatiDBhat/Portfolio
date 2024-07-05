@@ -184,5 +184,5 @@ The algorithm's simplicity, flexibility, and efficiency make it a popular choice
 | **Heap Data Structure**               | Insert/Delete/Extract-Min: O(log n)            | O(n)                                          |
 | **Fenwick Trees**                     | Build: O(n log n), Update/Query: O(log n)      | O(n)                                          |
 | **Floyd-Warshall Algorithm**          | O(V^3)                                         | O(V^2)                                        |
-| **Traveling Salesman Problem**        | O(n^2 * 2^n) using DP                          | O(n * 2^n)                                    |
+| **Traveling Salesman Problem**        | O(n^2 * 2^n)                                   | O(n * 2^n)                                    |
 
