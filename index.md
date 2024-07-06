@@ -14,7 +14,7 @@
 ## Introduction
 
 <div style="display: flex; align-items: center;">
-  <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/f7c6fe71-47c5-4e60-9e0a-1e5b0e631748" alt="Operating systems" style="width: 50%; height: auto; margin-right: 20px; margin-left:20px;"/>
+  <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/f7c6fe71-47c5-4e60-9e0a-1e5b0e631748" alt="Operating systems" style="width: 50%; height: auto; margin-right: 50px; margin-left:50px;"/>
   <p>An operating system is like the manager of a computer. It handles everything the computer does, from running programs to using its hardware like the screen and keyboard. It's the link between the software like apps, and the physical parts inside the computer. Examples include Windows, Linux, and Mac OS. Overall, it's essential software that keeps your computer running smoothly and makes sure everything works together.</p>
 </div>
 
@@ -25,7 +25,7 @@
 <table style="background-color: transparent; border-collapse: collapse; width: 100%;">
   <tr>
     <td style="padding: 20px; width: 50%; vertical-align: top;">
-      <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/d997c647-0eb9-4335-b7b8-28d1e4aeaf33" alt="Functionalities" style="max-width: 70%; height: auto; border-radius: 8px;">
+      <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/d997c647-0eb9-4335-b7b8-28d1e4aeaf33" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </td>
     <td style="padding: 20px; width: 50%; vertical-align: top;">
       <ul>
@@ -125,11 +125,11 @@ These days, everyone is focused on optimization, whether it involves VNF schedul
 <table style="background-color: transparent; border-collapse: collapse; width: 100%;">
   <tr>
     <!-- Image Column -->
-    <td style="padding: 20px; width: 40%; vertical-align: top;">
+    <td style="padding: 20px; width: 50%; vertical-align: top;">
       <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/cc783bfa-5f44-496a-8ced-8acfee28c8bf" alt="Whale Optimization" style="max-width: 100%; height: auto; border-radius: 8px;">
     </td>
     <!-- Text Column -->
-    <td style="padding: 20px; width: 60%; vertical-align: top;">
+    <td style="padding: 20px; width: 50%; vertical-align: top;">
       <p>The Whale Optimization Algorithm (WOA) is a nature-inspired optimization technique developed by Seyedali Mirjalili and Andrew Lewis in 2016. It mimics the hunting behavior of humpback whales, particularly their unique bubble-net feeding strategy.</p>
     </td>
   </tr>
