@@ -73,21 +73,21 @@ Efficiently allocating CPU, memory, and I/O resources ensures that business appl
             <p>Quickly allocates resources to the first available slot, enhancing allocation speed.</p>
             <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/firstfit.cpp">First-Fit Code</a>
           <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/ef07c44a-2e5b-4f3c-8e80-b06c6279dba8" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
+    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/8a71db49-7818-4661-be93-4a6ce97e963b" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
         </div>
         <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 3 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
             <h4>Best-fit</h4>
             <p>Minimizes wasted resources by placing them in the tightest available slot.</p>
             <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/bestfit.cpp">Best-Fit Code</a>
           <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/ef07c44a-2e5b-4f3c-8e80-b06c6279dba8" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
+    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/f588d073-0750-4a51-b51e-19c52366714b" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
         </div>
         <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 3 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
             <h4>Worst-fit</h4>
             <p>Distributes resources to the largest available slot to balance load over time.</p>
             <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/worstfit.cpp">Worst-Fit Code</a>
           <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/ef07c44a-2e5b-4f3c-8e80-b06c6279dba8" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
+    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/db4276fa-856f-4638-b651-8c6b4a43495f" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
         </div>
     </div>
 </div>
