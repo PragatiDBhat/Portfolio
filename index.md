@@ -98,7 +98,7 @@ Operating systems facilitate automated backup processes and recovery procedures,
 Ensuring operating systems adhere to industry regulations and standards (such as HIPAA, GDPR) helps businesses avoid legal liabilities and reputational damage related to data privacy and security breaches.
 1. **Stable Marriage Problem** - Ensures fair resource allocation and compliance processes. [Stable Marriage](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/stablemarriage.cpp)
 2. **Topological Sorting** - Orders tasks and dependencies to comply with regulations. [topological Sorting](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/topologicalsorting.cpp)
-3. Kruskal's Algorithm - Builds minimal compliance networks ensuring all requirements are met efficiently. [Kruskal](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/kruskal.c)
+3. **Kruskal's Algorithm** - Builds minimal compliance networks ensuring all requirements are met efficiently. [Kruskal](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/kruskal.c)
 
 
 ### Real-time processing
