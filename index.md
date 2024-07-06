@@ -55,11 +55,15 @@ Efficiently allocating CPU, memory, and I/O resources ensures that business appl
     <h3>Segment Trees</h3>
     <p>Useful for range queries and updates, optimizing resource allocation in real-time.</p>
     <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/dynamicrangequeries.cpp">Segment Trees</a>
+    <br>
+    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/ef07c44a-2e5b-4f3c-8e80-b06c6279dba8" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
   </div>
   <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 2 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <h3>Red-Black Trees</h3>
     <p>Balances resource management data structures for efficient insertion, deletion, and lookup operations.</p>
     <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/red-black.cpp">Red-Black Trees</a>
+    <br>
+    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/12374d2a-acb3-4104-a310-834940348daa" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
   </div>
   <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <h3>Bin-Packing Algorithm</h3>
@@ -98,6 +102,8 @@ Operating systems provide security features such as access control, encryption, 
         <h3>Binary Search Tree</h3>
         <p>Provides quick access and management of security keys and certificates.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/binarysearchtree.c">Binary Search Tree Code</a>
+      <br>
+      <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/64817ba0-af26-45fc-a356-497630901a76" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
 </div>
 
@@ -154,11 +160,15 @@ Operating systems support virtualization technologies, enabling businesses to co
         <h3>Segment Trees</h3>
         <p>Efficiently manages resources allocated to virtual machines, enabling dynamic allocation.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/dynamicrangequeries.cpp">Segment Trees Code</a>
+      <br>
+      <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/ef07c44a-2e5b-4f3c-8e80-b06c6279dba8" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
     <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 2 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
         <h3>Binary Search Trees (BST)</h3>
         <p>Organizes virtual machine resources for efficient allocation and retrieval.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/binarysearchtree.c">Binary Search Trees Code</a>
+      <br>
+      <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/64817ba0-af26-45fc-a356-497630901a76" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
 </div>
 
@@ -177,6 +187,8 @@ Providing compatibility and support for various business applications ensures em
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/bfs.c">BFS Code</a>
         <br>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/dfs.c">DFS Code</a>
+      <br>
+      <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/154eae16-0c4c-4a73-adb1-7ac29fa2ef47" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
 </div>
 
