@@ -24,10 +24,10 @@
 
 <table style="background-color: transparent; border-collapse: collapse; width: 100%;">
   <tr>
-    <td style="padding: 20px; width: 30%; vertical-align: top;">
-      <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/d997c647-0eb9-4335-b7b8-28d1e4aeaf33" alt="Functionalities" style="max-width: auto; height: auto; border-radius: 8px;">
+    <td style="padding: 20px; width: 50%; vertical-align: top;">
+      <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/d997c647-0eb9-4335-b7b8-28d1e4aeaf33" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </td>
-    <td style="padding: 20px; width: 70%; vertical-align: top;">
+    <td style="padding: 20px; width: 50%; vertical-align: top;">
       <ul>
         <li>Memory management</li>
         <li>Process scheduling</li>
@@ -125,11 +125,11 @@ These days, everyone is focused on optimization, whether it involves VNF schedul
 <table style="background-color: transparent; border-collapse: collapse; width: 100%;">
   <tr>
     <!-- Image Column -->
-    <td style="padding: 20px; width: 30%; vertical-align: top;">
+    <td style="padding: 20px; width: 50%; vertical-align: top;">
       <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/cc783bfa-5f44-496a-8ced-8acfee28c8bf" alt="Whale Optimization" style="max-width: 100%; height: auto; border-radius: 8px;">
     </td>
     <!-- Text Column -->
-    <td style="padding: 20px; width: 70%; vertical-align: top;">
+    <td style="padding: 20px; width: 50%; vertical-align: top;">
       <p>The Whale Optimization Algorithm (WOA) is a nature-inspired optimization technique developed by Seyedali Mirjalili and Andrew Lewis in 2016. It mimics the hunting behavior of humpback whales, particularly their unique bubble-net feeding strategy.</p>
     </td>
   </tr>
