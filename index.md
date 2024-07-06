@@ -188,5 +188,5 @@ The algorithm's simplicity, flexibility, and efficiency make it a popular choice
 2. Sultana, N., Paira, S., Chandra, S. and Alam, S.S., 2017, February. A brief study and analysis of different searching algorithms. In 2017 second international conference on electrical, computer and communication technologies (ICECCT) (pp. 1-4). IEEE.
 3. Gen, M. and Lin, L., 2023. Genetic algorithms and their applications. In Springer handbook of engineering statistics (pp. 635-674). London: Springer London.
 4. Kanda, S., Akabe, K. and Oda, Y., 2023. Engineering faster double‐array Aho–Corasick automata. Software: Practice and Experience, 53(6), pp.1332-1361.
-5. Pocchiola, A. (2015) 'Aho-Corasick Algorithm', Toptal. Available at: https://www.toptal.com/algorithms/aho-corasick-algorithm#:~:text=The%20Aho%2DCorasick%20algorithm%20is,%2FDNA%20sequence%20searching%2C%20etc. (Accessed: 6 July 2024).
-6. 
+5. Pocchiola, A. (2015) 'Aho-Corasick Algorithm', Toptal. Available at: https://www.toptal.com/algorithms/aho-corasick-algorithm#:~:text=The%20Aho%2DCorasick%20algorithm%20is,%2FDNA%20sequence%20searching%2C%20etc.
+6. GeeksforGeeks (2024) 'Introduction of B-Tree'. Available at: https://www.geeksforgeeks.org/introduction-of-b-tree/
