@@ -50,13 +50,26 @@ Data structures play a crucial role in operating systems by enabling efficient s
 
 ### Resource management
 Efficiently allocating CPU, memory, and I/O resources ensures that business applications run smoothly without interference, maximizing productivity. Some of the algorithms that can be used for this functionality are:
-1. **Segment Trees** - Useful for range queries and updates, optimizing resource allocation in real-time.
-   [Segment Tress](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/dynamicrangequeries.cpp)
-2. **Red-Black Trees** - Balances resource management data structures for efficient insertion, deletion, and lookup operations. [Red-black Tress](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/red-black.cpp)
-3. **Bin-Packing Algorithm**
-   - **First-fit** - Quickly allocates resources to the first available slot, enhancing allocation speed. [First-Fit](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/firstfit.cpp)
-   - **Best-fit** - Minimizes wasted resources by placing them in the tightest available slot. [Best-Fit](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/bestfit.cpp)
-   - **Worst-fit** - Distributes resources to the largest available slot to balance load over time. [Worst-Fit](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/worstfit.cpp)
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+  <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 30%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3>Segment Trees</h3>
+    <p>Useful for range queries and updates, optimizing resource allocation in real-time.</p>
+    <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/dynamicrangequeries.cpp">Segment Trees</a>
+  </div>
+  <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 30%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3>Red-Black Trees</h3>
+    <p>Balances resource management data structures for efficient insertion, deletion, and lookup operations.</p>
+    <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/red-black.cpp">Red-Black Trees</a>
+  </div>
+  <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 30%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+    <h3>Bin-Packing Algorithm</h3>
+    <ul>
+      <li><strong>First-fit</strong> - Quickly allocates resources to the first available slot, enhancing allocation speed. <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/firstfit.cpp">First-Fit</a></li>
+      <li><strong>Best-fit</strong> - Minimizes wasted resources by placing them in the tightest available slot. <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/bestfit.cpp">Best-Fit</a></li>
+      <li><strong>Worst-fit</strong> - Distributes resources to the largest available slot to balance load over time. <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/worstfit.cpp">Worst-Fit</a></li>
+    </ul>
+  </div>
+</div>
 
 
 ### Security
