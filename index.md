@@ -12,7 +12,7 @@
 </dl>
 
 ## Introduction
-
+# Index md
 <div style="display: flex; align-items: center;">
   <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/f7c6fe71-47c5-4e60-9e0a-1e5b0e631748" alt="Operating systems" style="width: 50%; height: auto; margin-right: 50px; margin-left:50px;"/>
   <p>An operating system is like the manager of a computer. It handles everything the computer does, from running programs to using its hardware like the screen and keyboard. It's the link between the software like apps, and the physical parts inside the computer. Examples include Windows, Linux, and Mac OS. Overall, it's essential software that keeps your computer running smoothly and makes sure everything works together.</p>
