@@ -206,11 +206,15 @@ Operating systems facilitate automated backup processes and recovery procedures,
         <h3>Skip List</h3>
         <p>Provides efficient access and update operations for backup indices.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/skiplist.cpp">Skip List Code</a>
+       <br>
+    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/bf25dad0-a4ce-4049-b126-3acbd9057e87" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
     <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 2 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
         <h3>Union-Find</h3>
         <p>Manages backup versions and relationships, simplifying recovery processes.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/unionfind.cpp">Union-Find Code</a>
+       <br>
+    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/179e8164-cf82-41f4-97c1-f420f0b4f3d2" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
 </div>
 
