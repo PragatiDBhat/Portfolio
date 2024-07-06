@@ -119,11 +119,9 @@ These days, everyone is focused on optimization, whether it involves VNF schedul
 ### Whale Optimization Algorithm
 <table style="background-color: transparent; border-collapse: collapse; width: 100%;">
   <tr>
-    <!-- Image Column -->
     <td style="padding: 20px; width: 40%; vertical-align: top;">
       <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/cc783bfa-5f44-496a-8ced-8acfee28c8bf" alt="Whale Optimization" style="max-width: 100%; height: auto; border-radius: 8px;">
     </td>
-    <!-- Text Column -->
     <td style="padding: 20px; width: 60%; vertical-align: top;">
       <p>The Whale Optimization Algorithm (WOA) is a nature-inspired optimization technique developed by Seyedali Mirjalili and Andrew Lewis in 2016. It mimics the hunting behavior of humpback whales, particularly their unique bubble-net feeding strategy.</p>
     </td>
