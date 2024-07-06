@@ -51,17 +51,17 @@ Data structures play a crucial role in operating systems by enabling efficient s
 ### Resource management
 Efficiently allocating CPU, memory, and I/O resources ensures that business applications run smoothly without interference, maximizing productivity. Some of the algorithms that can be used for this functionality are:
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-  <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 30%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 45%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <h3>Segment Trees</h3>
     <p>Useful for range queries and updates, optimizing resource allocation in real-time.</p>
     <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/dynamicrangequeries.cpp">Segment Trees</a>
   </div>
-  <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 30%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 45%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <h3>Red-Black Trees</h3>
     <p>Balances resource management data structures for efficient insertion, deletion, and lookup operations.</p>
     <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/red-black.cpp">Red-Black Trees</a>
   </div>
-  <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 30%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
     <h3>Bin-Packing Algorithm</h3>
     <ul>
       <li><strong>First-fit</strong> - Quickly allocates resources to the first available slot, enhancing allocation speed. <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/firstfit.cpp">First-Fit</a></li>
@@ -72,58 +72,172 @@ Efficiently allocating CPU, memory, and I/O resources ensures that business appl
 </div>
 
 
+
 ### Security
 Operating systems provide security features such as access control, encryption, and firewall management to protect sensitive business data and systems from unauthorized access and cyber threats. Data structures and algorithms leveraged for this are:
-1. **Aho-Corasick Algorithm** - Efficiently detects patterns in large datasets, aiding in intrusion detection systems. [Aho-Corasick](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/Aho-Corasick.cpp)
-2. **Binary Search Tree** - Provides quick access and management of security keys and certificates.[BST](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/binarysearchtree.c)
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 30%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>Aho-Corasick Algorithm</h3>
+        <p>Efficiently detects patterns in large datasets, aiding in intrusion detection systems.</p>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/Aho-Corasick.cpp">Aho-Corasick Algorithm Code</a>
+    </div>
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 30%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>Binary Search Tree</h3>
+        <p>Provides quick access and management of security keys and certificates.</p>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/binarysearchtree.c">Binary Search Tree Code</a>
+    </div>
+</div>
+
 
    
 ### Network management
 Facilitating network routing and data transmission ensures reliable connectivity between business units, remote offices, and clients, supporting seamless communication and collaboration. The following least path algorithms can be used:
-1. **Dijkstra's Algorithm** - Finds the shortest path in a network, optimizing data routing. [Dijsktra](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/dijkstra.c)
-2. **Ant Colony Optimization Algorithm** - Mimics the behavior of ants to find optimal paths and manage network traffic dynamically. [Ant Colony](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/antcolony.cpp)
-3. **A\* Search Algorithm** - Combines heuristics and path cost to find the most efficient route in a network. [A* ](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/astar.cpp)
-4. **Bellman-Ford Algorithm** - Handles routing in networks with negative weight edges, ensuring reliable connectivity.[Bellman-Ford](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/bellman.c)
+<div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px;">
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 45%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>Dijkstra's Algorithm</h3>
+        <p>Finds the shortest path in a network, optimizing data routing.</p>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/dijkstra.c">Dijkstra's Algorithm Code</a>
+    </div>
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 45%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>Ant Colony Optimization Algorithm</h3>
+        <p>Mimics the behavior of ants to find optimal paths and manage network traffic dynamically.</p>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/antcolony.cpp">Ant Colony Optimization Algorithm Code</a>
+    </div>
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 45%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>A* Search Algorithm</h3>
+        <p>Combines heuristics and path cost to find the most efficient route in a network.</p>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/astar.cpp">A* Search Algorithm Code</a>
+    </div>
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 45%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>Bellman-Ford Algorithm</h3>
+        <p>Handles routing in networks with negative weight edges, ensuring reliable connectivity.</p>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/bellman.c">Bellman-Ford Algorithm Code</a>
+    </div>
+</div>
+
 
 
 ### File management
 Organizing and managing files across storage devices ensures quick access to business-critical data, supporting efficient workflows and decision-making. The following algorithms can be applied for this functionality:
-1. **Trie Data Structure** - Efficiently stores and retrieves large sets of strings, aiding in file search and organization. [Trie](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/trie.cpp)
-2. **B+ Trees** - Provides balanced and efficient access to file records, enhancing database performance.[B+](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/bplusstree.cpp)
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 45%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>Trie Data Structure</h3>
+        <p>Efficiently stores and retrieves large sets of strings, aiding in file search and organization.</p>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/trie.cpp">Trie Data Structure Code</a>
+    </div>
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 45%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>B+ Trees</h3>
+        <p>Provides balanced and efficient access to file records, enhancing database performance.</p>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/bplusstree.cpp">B+ Trees Code</a>
+    </div>
+</div>
+
 
 
 ### Virtualization
 Operating systems support virtualization technologies, enabling businesses to consolidate servers, optimize resource utilization, and reduce hardware costs while maintaining performance and scalability.
-1. **Segment Trees** - Efficiently manages resources allocated to virtual machines, enabling dynamic allocation. [Segment Tress](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/dynamicrangequeries.cpp)
-2. **Binary Search Trees (BST)** - Organizes virtual machine resources for efficient allocation and retrieval. [BST](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/binarysearchtree.c)
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 45%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>Segment Trees</h3>
+        <p>Efficiently manages resources allocated to virtual machines, enabling dynamic allocation.</p>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/dynamicrangequeries.cpp">Segment Trees Code</a>
+    </div>
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 45%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>Binary Search Trees (BST)</h3>
+        <p>Organizes virtual machine resources for efficient allocation and retrieval.</p>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/binarysearchtree.c">Binary Search Trees Code</a>
+    </div>
+</div>
+
 
 ### Application support
 Providing compatibility and support for various business applications ensures employees can use essential tools for tasks ranging from accounting and customer management to creative design and data analysis.
-1. **Hash Tables** - Offers fast access to application data and configurations.[Hash](https://github.com/PragatiDBhat/Portfolioablob/main/Codes/hash.cpp)
-2. **BFS and DFS** - Traverses application dependencies and structures, ensuring efficient execution. [BFS](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/bfs.c)  [DFS](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/dfs.c)
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 45%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>Hash Tables</h3>
+        <p>Offers fast access to application data and configurations.</p>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/hash.cpp">Hash Tables Code</a>
+    </div>
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 45%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>BFS and DFS</h3>
+        <p>Traverses application dependencies and structures, ensuring efficient execution.</p>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/bfs.c">BFS Code</a>
+        <br>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/dfs.c">DFS Code</a>
+    </div>
+</div>
+
 
 ### Backup and recovery
 Operating systems facilitate automated backup processes and recovery procedures, safeguarding against data loss due to hardware failures, human error, or malicious activities.
-1. **Skip List** - Provides efficient access and update operations for backup indices. [Skip List](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/skiplist.cpp)
-2. **Union-Find** - Manages backup versions and relationships, simplifying recovery processes. [Union Find](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/unionfind.cpp)
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 45%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>Skip List</h3>
+        <p>Provides efficient access and update operations for backup indices.</p>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/skiplist.cpp">Skip List Code</a>
+    </div>
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 45%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>Union-Find</h3>
+        <p>Manages backup versions and relationships, simplifying recovery processes.</p>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/unionfind.cpp">Union-Find Code</a>
+    </div>
+</div>
+
 
 ### Compliance and governance
 Ensuring operating systems adhere to industry regulations and standards (such as HIPAA, GDPR) helps businesses avoid legal liabilities and reputational damage related to data privacy and security breaches.
-1. **Stable Marriage Problem** - Ensures fair resource allocation and compliance processes. [Stable Marriage](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/stablemarriage.cpp)
-2. **Topological Sorting** - Orders tasks and dependencies to comply with regulations. [topological Sorting](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/topologicalsorting.cpp)
-3. **Kruskal's Algorithm** - Builds minimal compliance networks ensuring all requirements are met efficiently. [Kruskal](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/kruskal.c)
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 30%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>Stable Marriage Problem</h3>
+        <p>Ensures fair resource allocation and compliance processes.</p>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/stablemarriage.cpp">Stable Marriage Code</a>
+    </div>
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 30%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>Topological Sorting</h3>
+        <p>Orders tasks and dependencies to comply with regulations.</p>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/topologicalsorting.cpp">Topological Sorting Code</a>
+    </div>
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 30%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>Kruskal's Algorithm</h3>
+        <p>Builds minimal compliance networks ensuring all requirements are met efficiently.</p>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/kruskal.c">Kruskal's Algorithm Code</a>
+    </div>
+</div>
+
 
 
 ### Real-time processing
 Operating systems with real-time capabilities support industries like finance, manufacturing, and telecommunications, where timely data processing and response are critical for operations and customer service.
-1. **Heap Data Structure** - Manages real-time task scheduling with efficient priority queue operations. [Max Heap](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/heap.cpp)
-2. **Fenwick Trees** - Provides efficient updates and queries for real-time data processing. [Fenwick Tree](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/rangeupdateandsums.cpp)
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 45%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>Heap Data Structure</h3>
+        <p>Manages real-time task scheduling with efficient priority queue operations.</p>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/heap.cpp">Max Heap Code</a>
+    </div>
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 45%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>Fenwick Trees</h3>
+        <p>Provides efficient updates and queries for real-time data processing.</p>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/rangeupdateandsums.cpp">Fenwick Tree Code</a>
+    </div>
+</div>
+
 
 
 ### Facilitating management and logistics
 Identifying the shortest paths or least-cost routes for transporting goods between warehouses, distribution centers, and retail outlets. Optimizing the layout of manufacturing plants or warehouses to minimize transportation costs and maximize operational efficiency.
-1. **Floyd-Warshall Algorithm** - Computes shortest paths between all pairs of locations, optimizing logistics routes.[Floy-Warshall](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/floyd-warshall.c)
-2. **Traveling Salesman Problem** - Finds the most efficient route for goods transportation, minimizing travel cost and time. [TSP](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/tsp.cpp)
+<div style="display: flex; justify-content: space-between; gap: 20px;">
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 45%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>Floyd-Warshall Algorithm</h3>
+        <p>Computes shortest paths between all pairs of locations, optimizing logistics routes.</p>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/floyd-warshall.c">Floyd-Warshall Algorithm Code</a>
+    </div>
+    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 45%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+        <h3>Traveling Salesman Problem</h3>
+        <p>Finds the most efficient route for goods transportation, minimizing travel cost and time.</p>
+        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/tsp.cpp">Traveling Salesman Problem Code</a>
+    </div>
+</div>
+
 
 
 ## Bonus
