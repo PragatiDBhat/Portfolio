@@ -103,15 +103,11 @@ Operating systems provide security features such as access control, encryption, 
         <h3>Aho-Corasick Algorithm</h3>
         <p>Efficiently detects patterns in large datasets, aiding in intrusion detection systems.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/Aho-Corasick.cpp">Aho-Corasick Algorithm Code</a>
-      <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/ef07c44a-2e5b-4f3c-8e80-b06c6279dba8" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
     <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 2 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
         <h3>Binary Search Tree</h3>
         <p>Provides quick access and management of security keys and certificates.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/binarysearchtree.c">Binary Search Tree Code</a>
-      <br>
-      <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/64817ba0-af26-45fc-a356-497630901a76" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
 </div>
 
@@ -124,29 +120,21 @@ Facilitating network routing and data transmission ensures reliable connectivity
         <h3>Dijkstra's Algorithm</h3>
         <p>Finds the shortest path in a network, optimizing data routing.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/dijkstra.c">Dijkstra's Algorithm Code</a>
-      <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/ea208378-3994-4024-8d25-86c7e62c4aad" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
     <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 2 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
         <h3>Ant Colony Optimization Algorithm</h3>
         <p>Mimics the behavior of ants to find optimal paths and manage network traffic dynamically.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/antcolony.cpp">Ant Colony Optimization Algorithm Code</a>
-      <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/ef07c44a-2e5b-4f3c-8e80-b06c6279dba8" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
     <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 2 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
         <h3>A* Search Algorithm</h3>
         <p>Combines heuristics and path cost to find the most efficient route in a network.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/astar.cpp">A* Search Algorithm Code</a>
-      <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/ef07c44a-2e5b-4f3c-8e80-b06c6279dba8" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
     <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 2 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
         <h3>Bellman-Ford Algorithm</h3>
         <p>Handles routing in networks with negative weight edges, ensuring reliable connectivity.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/bellman.c">Bellman-Ford Algorithm Code</a>
-      <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/ef07c44a-2e5b-4f3c-8e80-b06c6279dba8" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
 </div>
 
@@ -159,15 +147,11 @@ Organizing and managing files across storage devices ensures quick access to bus
         <h3>Trie Data Structure</h3>
         <p>Efficiently stores and retrieves large sets of strings, aiding in file search and organization.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/trie.cpp">Trie Data Structure Code</a>
-      <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/a986b38b-609e-4d75-8eb7-cfce984eb8e0" alt="Functionalities" style="max-width: 1000%; height: auto; border-radius: 8px;">
     </div>
     <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 2 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
         <h3>B+ Trees</h3>
         <p>Provides balanced and efficient access to file records, enhancing database performance.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/bplusstree.cpp">B+ Trees Code</a>
-      <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/ef07c44a-2e5b-4f3c-8e80-b06c6279dba8" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
 </div>
 
@@ -222,15 +206,11 @@ Operating systems facilitate automated backup processes and recovery procedures,
         <h3>Skip List</h3>
         <p>Provides efficient access and update operations for backup indices.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/skiplist.cpp">Skip List Code</a>
-      <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/bf25dad0-a4ce-4049-b126-3acbd9057e87" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
     <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 2 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
         <h3>Union-Find</h3>
         <p>Manages backup versions and relationships, simplifying recovery processes.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/unionfind.cpp">Union-Find Code</a>
-      <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/ef07c44a-2e5b-4f3c-8e80-b06c6279dba8" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
 </div>
 
@@ -242,22 +222,16 @@ Ensuring operating systems adhere to industry regulations and standards (such as
         <h3>Stable Marriage Problem</h3>
         <p>Ensures fair resource allocation and compliance processes.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/stablemarriage.cpp">Stable Marriage Code</a>
-      <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/ef07c44a-2e5b-4f3c-8e80-b06c6279dba8" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
     <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 3 - 20px);; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
         <h3>Topological Sorting</h3>
         <p>Orders tasks and dependencies to comply with regulations.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/topologicalsorting.cpp">Topological Sorting Code</a>
-      <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/13734991-53bd-40d7-b492-f4a802b8fc3b" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
     <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 3 - 20px);; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
         <h3>Kruskal's Algorithm</h3>
         <p>Builds minimal compliance networks ensuring all requirements are met efficiently.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/kruskal.c">Kruskal's Algorithm Code</a>
-      <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/ef07c44a-2e5b-4f3c-8e80-b06c6279dba8" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
 </div>
 
@@ -270,15 +244,11 @@ Operating systems with real-time capabilities support industries like finance, m
         <h3>Heap Data Structure</h3>
         <p>Manages real-time task scheduling with efficient priority queue operations.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/heap.cpp">Max Heap Code</a>
-      <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/26ba7889-97e4-4be3-897b-04279f740a68" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
     <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 2 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
         <h3>Fenwick Trees</h3>
         <p>Provides efficient updates and queries for real-time data processing.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/rangeupdateandsums.cpp">Fenwick Tree Code</a>
-      <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/ef07c44a-2e5b-4f3c-8e80-b06c6279dba8" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
 </div>
 
@@ -291,15 +261,11 @@ Identifying the shortest paths or least-cost routes for transporting goods betwe
         <h3>Floyd-Warshall Algorithm</h3>
         <p>Computes shortest paths between all pairs of locations, optimizing logistics routes.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/floyd-warshall.c">Floyd-Warshall Algorithm Code</a>
-      <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/ef07c44a-2e5b-4f3c-8e80-b06c6279dba8" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
     <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 2 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
         <h3>Traveling Salesman Problem</h3>
         <p>Finds the most efficient route for goods transportation, minimizing travel cost and time.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/tsp.cpp">Traveling Salesman Problem Code</a>
-      <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/ef07c44a-2e5b-4f3c-8e80-b06c6279dba8" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
     </div>
 </div>
 
