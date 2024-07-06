@@ -171,7 +171,7 @@ The algorithm's simplicity, flexibility, and efficiency make it a popular choice
 | **Binary Search Tree**                | Insert/Delete/Search: O(log n) avg, O(n) worst | O(n)                                          |
 | **Dijkstra's Algorithm**              | O((V + E) log V)                               | O(V^2)                                        |
 | **Ant Colony Optimization Algorithm** | O(n^3) per iteration                           | O(n^2)                                        |
-| **A* Search Algorithm**               | O(E)                                           | O(E)                                          |
+| **A\* Search Algorithm**               | O(E)                                           | O(E)                                          |
 | **Bellman-Ford Algorithm**            | O(VE)                                          | O(V)                                          |
 | **Trie Data Structure**               | Insert/Search: O(m)                            | O(m) per node                                 |
 | **B+ Trees**                          | Insert/Delete/Search: O(log n)                 | O(n)                                          |
@@ -187,3 +187,9 @@ The algorithm's simplicity, flexibility, and efficiency make it a popular choice
 | **Floyd-Warshall Algorithm**          | O(V^3)                                         | O(V^2)                                        |
 | **Traveling Salesman Problem**        | O(n^2 * 2^n)                                   | O(n * 2^n)                                    |
 
+
+## References
+1. Chen, X., Cheng, L., Liu, C., Liu, Q., Liu, J., Mao, Y. and Murphy, J., 2020. A WOA-based optimization approach for task scheduling in cloud computing systems. IEEE Systems journal, 14(3), pp.3117-3128.
+2. Sultana, N., Paira, S., Chandra, S. and Alam, S.S., 2017, February. A brief study and analysis of different searching algorithms. In 2017 second international conference on electrical, computer and communication technologies (ICECCT) (pp. 1-4). IEEE.
+3. Gen, M. and Lin, L., 2023. Genetic algorithms and their applications. In Springer handbook of engineering statistics (pp. 635-674). London: Springer London.
+4. Kanda, S., Akabe, K. and Oda, Y., 2023. Engineering faster double‐array Aho–Corasick automata. Software: Practice and Experience, 53(6), pp.1332-1361.
