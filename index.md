@@ -160,7 +160,7 @@ Organizing and managing files across storage devices ensures quick access to bus
         <p>Efficiently stores and retrieves large sets of strings, aiding in file search and organization.</p>
         <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/trie.cpp">Trie Data Structure Code</a>
       <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/a986b38b-609e-4d75-8eb7-cfce984eb8e0" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
+    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/a986b38b-609e-4d75-8eb7-cfce984eb8e0" alt="Functionalities" style="max-width: 1000%; height: auto; border-radius: 8px;">
     </div>
     <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 2 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
         <h3>B+ Trees</h3>
