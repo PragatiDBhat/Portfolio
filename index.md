@@ -47,38 +47,16 @@ Data structures play a crucial role in operating systems by enabling efficient s
 
 ## Following Business cases are identified and presented.
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
-        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
-            <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/1.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">Resource Management</a>
-        </div>
-        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
-            <a href="2.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">Security</a>
-        </div>
-        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
-            <a href="3.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">Network Management</a>
-        </div>
-        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
-            <a href="4.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">File Management</a>
-        </div>
-        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
-            <a href="5.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">Virtualization</a>
-        </div>
-        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
-            <a href="6.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">Application Support</a>
-        </div>
-        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
-            <a href="7.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">Backup and Recovery</a>
-        </div>
-        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
-            <a href="8.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">Compliance and Governance</a>
-        </div>
-        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
-            <a href="9.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">Real-time Processing</a>
-        </div>
-        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
-            <a href="10.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">Facilitating Management and Logistics</a>
-        </div>
-    </div>
+1. [Resource Management](1.md)
+2. [Security](2.md)
+3. [Network Management](3.md)
+4. [File Management](4.md)
+5. [Virtualisation](5.md)
+6. [Application Support](6.md)
+7. [Backup and Recovery](7.md)
+8. [Compliance and Governance](8.md)
+9. [Real time processing](9.md)
+10. [Facilitating management and Logistics](10.md)
    
 
 ## Bonus
