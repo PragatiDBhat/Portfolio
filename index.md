@@ -46,7 +46,7 @@ An operating system is like the manager of a computer. It handles everything the
 Data structures play a crucial role in operating systems by enabling efficient storage and retrieval of data. They are fundamental components that help the operating system perform various tasks such as job scheduling, memory management, storing instructions, and managing resources effectively. Operating systems rely on different data structures to organize and manipulate data efficiently, enhancing performance and optimizing resource utilization.
 
 ## Following Business cases are identified and presented.
-
+(Click on the cards to know more)
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
     <div style="border: 1px solid #ddd; border-radius: 12px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); background-color: #f9f9f9; text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
         <a href="https://pragatidbhat.github.io/Portfolio/1.html" style="text-decoration: none; color: #333; font-weight: bold;">Resource Management</a>
@@ -91,7 +91,7 @@ These days, everyone is focused on optimization, whether it involves VNF schedul
       <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/cc783bfa-5f44-496a-8ced-8acfee28c8bf" alt="Whale Optimization" style="max-width: 100%; height: auto; border-radius: 8px;">
     </td>
     <td style="padding: 20px; width: 60%; vertical-align: top;">
-      <p>The Whale Optimization Algorithm (WOA) is a nature-inspired optimization technique developed by Seyedali Mirjalili and Andrew Lewis in 2016. It mimics the hunting behavior of humpback whales, particularly their unique bubble-net feeding strategy.</p>
+      <p>The Whale Optimization Algorithm (WOA) is a nature-inspired optimization technique. It mimics the hunting behavior of humpback whales, particularly their unique bubble-net feeding strategy.The WOA is used to solve optimization problems in various fields, including engineering, economics, and computer science.</p>
     </td>
   </tr>
 </table>
@@ -154,5 +154,5 @@ The algorithm's simplicity, flexibility, and efficiency make it a popular choice
 2. Sultana, N., Paira, S., Chandra, S. and Alam, S.S., 2017, February. A brief study and analysis of different searching algorithms. In 2017 second international conference on electrical, computer and communication technologies (ICECCT) (pp. 1-4). IEEE.
 3. Gen, M. and Lin, L., 2023. Genetic algorithms and their applications. In Springer handbook of engineering statistics (pp. 635-674). London: Springer London.
 4. Kanda, S., Akabe, K. and Oda, Y., 2023. Engineering faster double‐array Aho–Corasick automata. Software: Practice and Experience, 53(6), pp.1332-1361.
-5. Pocchiola, A. (2015) 'Aho-Corasick Algorithm', Toptal. Available at: https://www.toptal.com/algorithms/aho-corasick-algorithm#:~:text=The%20Aho%2DCorasick%20algorithm%20is,%2FDNA%20sequence%20searching%2C%20etc.
-6. GeeksforGeeks (2024) 'Introduction of B-Tree'. Available at: https://www.geeksforgeeks.org/introduction-of-b-tree/
+5. Pocchiola, A. (2015) 'Aho-Corasick Algorithm', Toptal. 
+6. GeeksforGeeks (2024) 'Introduction of B-Tree'. 
