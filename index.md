@@ -88,7 +88,7 @@ Data structures play a crucial role in operating systems by enabling efficient s
         <a href="https://pragatidbhat.github.io/Portfolio/13.html" style="text-decoration: none; color: #333; font-weight: bold;">System State Exploration</a>
     </div>
   <div style="border: 1px solid #ddd; border-radius: 12px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); background-color: #f9f9f9; text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
-        <a href="https://pragatidbhat.github.io/Portfolio/14.html" style="text-decoration: none; color: #333; font-weight: bold;">Longest Common Substring</a>
+        <a href="https://pragatidbhat.github.io/Portfolio/14.html" style="text-decoration: none; color: #333; font-weight: bold;">File comparison and Version Control</a>
     </div>
 </div>
 
