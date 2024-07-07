@@ -12,11 +12,10 @@
 </dl>
 
 ## Introduction
+  <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/f7c6fe71-47c5-4e60-9e0a-1e5b0e631748" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
 
-<div style="display: flex; align-items: center;">
-  <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/f7c6fe71-47c5-4e60-9e0a-1e5b0e631748" alt="Operating systems" style="width: 50%; height: auto; margin-right: 50px; margin-left:50px;"/>
-  <p>An operating system is like the manager of a computer. It handles everything the computer does, from running programs to using its hardware like the screen and keyboard. It's the link between the software like apps, and the physical parts inside the computer. Examples include Windows, Linux, and Mac OS. Overall, it's essential software that keeps your computer running smoothly and makes sure everything works together.</p>
-</div>
+  
+An operating system is like the manager of a computer. It handles everything the computer does, from running programs to using its hardware like the screen and keyboard. It's the link between the software like apps, and the physical parts inside the computer. Examples include Windows, Linux, and Mac OS. Overall, it's essential software that keeps your computer running smoothly and makes sure everything works together.
 
 
 
@@ -48,162 +47,38 @@ Data structures play a crucial role in operating systems by enabling efficient s
 
 ## Following Business cases are identified and presented.
 
-### Resource management
-Efficiently allocating CPU, memory, and I/O resources ensures that business applications run smoothly without interference, maximizing productivity. Some of the algorithms that can be used for this functionality are:
-<div style="display: flex; flex-wrap: wrap; gap: 20px;">
-  <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 2 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <h3>Segment Trees</h3>
-    <p>Efficiently handle range queries and updates, crucial for allocating resources such as CPU and memory dynamically. They allow quick adjustments to resource usage based on current demands.</p>
-    <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/dynamicrangequeries.cpp">Segment Trees</a>
-    <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/ef07c44a-2e5b-4f3c-8e80-b06c6279dba8" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
-  </div>
-  <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 2 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <h3>Red-Black Trees</h3>
-    <p>Provide self-balancing properties, ensuring that operations (insertion, deletion, search) remain efficient, which is essential for systems that need to manage a large number of processes or resources consistently.</p>
-    <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/red-black.cpp">Red-Black Trees</a>
-    <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/12374d2a-acb3-4104-a310-834940348daa" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
-  </div>
-  <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-    <h3>Bin-Packing Algorithm</h3>
-    <p>These algorithms help optimize the placement of processes and resources:</p>
-    <div style="display: flex; flex-wrap: wrap; gap: 20px;">
-        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 3 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-            <h4>First-fit</h4>
-            <p>Quickly allocates resources to the first available slot, enhancing allocation speed.</p>
-            <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/firstfit.cpp">First-Fit Code</a>
-          <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/8a71db49-7818-4661-be93-4a6ce97e963b" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
+            <a href="1.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">Resource Management</a>
         </div>
-        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 3 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-            <h4>Best-fit</h4>
-            <p>Minimizes wasted resources by placing them in the tightest available slot.</p>
-            <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/bestfit.cpp">Best-Fit Code</a>
-          <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/f588d073-0750-4a51-b51e-19c52366714b" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
+        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
+            <a href="2.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">Security</a>
         </div>
-        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 3 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-            <h4>Worst-fit</h4>
-            <p>Distributes resources to the largest available slot to balance load over time.</p>
-            <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/worstfit.cpp">Worst-Fit Code</a>
-          <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/db4276fa-856f-4638-b651-8c6b4a43495f" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
+        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
+            <a href="3.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">Network Management</a>
+        </div>
+        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
+            <a href="4.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">File Management</a>
+        </div>
+        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
+            <a href="5.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">Virtualization</a>
+        </div>
+        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
+            <a href="6.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">Application Support</a>
+        </div>
+        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
+            <a href="7.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">Backup and Recovery</a>
+        </div>
+        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
+            <a href="8.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">Compliance and Governance</a>
+        </div>
+        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
+            <a href="9.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">Real-time Processing</a>
+        </div>
+        <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
+            <a href="10.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">Facilitating Management and Logistics</a>
         </div>
     </div>
-</div>
-
-</div>
-
-
-
-### Security
-Operating systems provide security features such as access control, encryption, and firewall management to protect sensitive business data and systems from unauthorized access and cyber threats. Data structures and algorithms leveraged for this are:
-1. **Aho-Corasick Algorithm** - Allows for fast multi-pattern searching, which is useful in real-time intrusion detection and filtering malicious data. [Aho-Corasick](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/Aho-Corasick.cpp)
-2. **Binary Search Tree** - Quick access to cryptographic keys and certificates, which are frequently used in security protocols, ensuring that authentication and encryption processes are fast and reliable.[BST](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/binarysearchtree.c)
-
-
-   
-### Network management
-Facilitating network routing and data transmission ensures reliable connectivity between business units, remote offices, and clients, supporting seamless communication and collaboration. The following least path algorithms can be used:
-1. **Dijkstra's Algorithm** -Finds the shortest path, ensuring optimal routing and reducing latency in data transmission. [Dijsktra](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/dijkstra.c)
-2. **Ant Colony Optimization Algorithm** - Adaptively manages network traffic, finding optimal paths even as network conditions change. [Ant Colony](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/antcolony.cpp)
-3. **A\* Search Algorithm** - Combines heuristics and path cost to find the most efficient route in a network. [A* ](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/astar.cpp)
-4. **Bellman-Ford Algorithm** - Handles routing in networks with negative weight edges, ensuring reliable connectivity. [Bellman-Ford](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/bellman.c)
-
-    
-
-### File management
-Organizing and managing files across storage devices ensures quick access to business-critical data, supporting efficient workflows and decision-making. The following algorithms can be applied for this functionality:
-1. **Trie Data Structure** -Provides efficient storage and retrieval for large sets of strings, which is essential for managing filenames and directories in a file system. [Trie](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/trie.cpp)
-2. **B+ Trees** - Used in databases for their efficient search, insert, and delete operations, enhancing the performance of file management systems.[B+](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/bplusstree.cpp)
-
-
-
-
-### Virtualization
-Operating systems support virtualization technologies, enabling businesses to consolidate servers, optimize resource utilization, and reduce hardware costs while maintaining performance and scalability.
-<div style="display: flex; justify-content: space-between; gap: 20px;">
-    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 2 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-        <h3>Segment Trees</h3>
-        <p>Manage the dynamic allocation of resources to virtual machines, allowing for efficient and flexible virtualization management.</p>
-        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/dynamicrangequeries.cpp">Segment Trees Code</a>
-      <br>
-      <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/ef07c44a-2e5b-4f3c-8e80-b06c6279dba8" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
-    </div>
-    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 2 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-        <h3>Binary Search Trees (BST)</h3>
-        <p>Organize and manage virtual machine resources, ensuring quick access and efficient allocation.</p>
-        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/binarysearchtree.c">Binary Search Trees Code</a>
-      <br>
-      <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/64817ba0-af26-45fc-a356-497630901a76" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
-    </div>
-</div>
-
-
-### Application support
-Providing compatibility and support for various business applications ensures employees can use essential tools for tasks ranging from accounting and customer management to creative design and data analysis.
-<div style="display: flex; justify-content: space-between; gap: 20px;">
-    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 2 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-        <h3>Hash Tables</h3>
-        <p>Provide constant time complexity for access and retrieval, essential for fast application performance and configuration management.</p>
-        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/hash.cpp">Hash Tables Code</a>
-      <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/6f9b51e1-1440-4915-bb44-553c874f367f" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
-    </div>
-    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 2 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-        <h3>BFS and DFS</h3>
-        <p>Traverse application dependencies and structures, ensuring efficient execution and management of complex software systems.</p>
-        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/bfs.c">BFS Code</a>
-        <br>
-        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/dfs.c">DFS Code</a>
-      <br>
-      <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/154eae16-0c4c-4a73-adb1-7ac29fa2ef47" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
-    </div>
-</div>
-
-
-### Backup and recovery
-Operating systems facilitate automated backup processes and recovery procedures, safeguarding against data loss due to hardware failures, human error, or malicious activities.
-<div style="display: flex; justify-content: space-between; gap: 20px;">
-    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 2 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-        <h3>Skip List</h3>
-        <p>Offers efficient search, insertion, and deletion operations, useful for managing backup indices and versions.</p>
-        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/skiplist.cpp">Skip List Code</a>
-       <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/bf25dad0-a4ce-4049-b126-3acbd9057e87" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
-    </div>
-    <div style="border: 1px solid #ccc; border-radius: 8px; padding: 15px; width: calc(100% / 2 - 20px); box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
-        <h3>Union-Find</h3>
-        <p>Manages the relationships between different backup versions, simplifying the recovery process by quickly finding and merging data.</p>
-        <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/unionfind.cpp">Union-Find Code</a>
-       <br>
-    <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/179e8164-cf82-41f4-97c1-f420f0b4f3d2" alt="Functionalities" style="max-width: 100%; height: auto; border-radius: 8px;">
-    </div>
-</div>
-
-
-### Compliance and governance
-Ensuring operating systems adhere to industry regulations and standards (such as HIPAA, GDPR) helps businesses avoid legal liabilities and reputational damage related to data privacy and security breaches.
-
-1. **Stable Marriage Problem** - Ensures fair and compliant allocation of resources, which can be crucial for regulatory adherence. [Stable Marriage](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/stablemarriage.cpp)
-2. **Topological Sorting** -Orders tasks and dependencies to ensure compliance with regulations, preventing conflicts and ensuring proper sequence. [topological Sorting](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/topologicalsorting.cpp)
-3. **Kruskal's Algorithm** - Builds minimal spanning trees, ensuring that all compliance requirements are met efficiently and effectively. [Kruskal](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/kruskal.c)
-
-
-### Real-time processing
-Operating systems with real-time capabilities support industries like finance, manufacturing, and telecommunications, where timely data processing and response are critical for operations and customer service.
-1. **Heap Data Structure** :Manages real-time task scheduling by efficiently handling priority queues, ensuring that high-priority tasks are processed timely. [Max Heap Code](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/heap.cpp)
-
-2. **Fenwick Trees** :Provide efficient updates and queries, essential for real-time data processing and analytics. [Fenwick Tree Code](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/rangeupdateandsums.cpp)
-
-
-
-### Facilitating management and logistics
-Identifying the shortest paths or least-cost routes for transporting goods between warehouses, distribution centers, and retail outlets. Optimizing the layout of manufacturing plants or warehouses to minimize transportation costs and maximize operational efficiency.
-
-1. **Floyd-Warshall Algorithm** - Computes shortest paths between all pairs of locations, optimizing routes for logistics and transportation.[Floy-Warshall](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/floyd-warshall.c)
-2. **Traveling Salesman Problem** - Finds the most efficient route for transporting goods, minimizing travel cost and time, and enhancing logistics efficiency. [TSP](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/tsp.cpp)
    
 
 ## Bonus
