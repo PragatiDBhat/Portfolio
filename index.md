@@ -155,4 +155,5 @@ The algorithm's simplicity, flexibility, and efficiency make it a popular choice
 3. Gen, M. and Lin, L., 2023. Genetic algorithms and their applications. In Springer handbook of engineering statistics (pp. 635-674). London: Springer London.
 4. Kanda, S., Akabe, K. and Oda, Y., 2023. Engineering faster double‐array Aho–Corasick automata. Software: Practice and Experience, 53(6), pp.1332-1361.
 5. Pocchiola, A. (2015) 'Aho-Corasick Algorithm', Toptal. 
-6. GeeksforGeeks (2024) 'Introduction of B-Tree'. 
+6. GeeksforGeeks (2024) 'Introduction of B-Tree'.
+7. Brilliant.org 'A* Search'
