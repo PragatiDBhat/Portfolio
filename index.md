@@ -49,7 +49,7 @@ Data structures play a crucial role in operating systems by enabling efficient s
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
         <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
-            <a href="1.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">Resource Management</a>
+            <a href="https://github.com/PragatiDBhat/Portfolio/blob/main/1.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">Resource Management</a>
         </div>
         <div style="border: 1px solid #ccc; border-radius: 8px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: white; text-align: center; transition: transform 0.2s;">
             <a href="2.md" style="text-decoration: none; color: #007BFF; font-weight: bold;">Security</a>
