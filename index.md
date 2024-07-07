@@ -78,6 +78,18 @@ Data structures play a crucial role in operating systems by enabling efficient s
     <div style="border: 1px solid #ddd; border-radius: 12px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); background-color: #f9f9f9; text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
         <a href="https://pragatidbhat.github.io/Portfolio/10.html" style="text-decoration: none; color: #333; font-weight: bold;">Facilitating Management and Logistics</a>
     </div>
+  <div style="border: 1px solid #ddd; border-radius: 12px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); background-color: #f9f9f9; text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
+        <a href="https://pragatidbhat.github.io/Portfolio/11.html" style="text-decoration: none; color: #333; font-weight: bold;">Job Scheduling</a>
+    </div>
+  <div style="border: 1px solid #ddd; border-radius: 12px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); background-color: #f9f9f9; text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
+        <a href="https://pragatidbhat.github.io/Portfolio/12.html" style="text-decoration: none; color: #333; font-weight: bold;">Cache Management</a>
+    </div>
+  <div style="border: 1px solid #ddd; border-radius: 12px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); background-color: #f9f9f9; text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
+        <a href="https://pragatidbhat.github.io/Portfolio/13.html" style="text-decoration: none; color: #333; font-weight: bold;">System State Exploration</a>
+    </div>
+  <div style="border: 1px solid #ddd; border-radius: 12px; padding: 20px; width: calc(50% - 20px); box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); background-color: #f9f9f9; text-align: center; transition: transform 0.3s, box-shadow 0.3s;">
+        <a href="https://pragatidbhat.github.io/Portfolio/14.html" style="text-decoration: none; color: #333; font-weight: bold;">Longest Common Substring</a>
+    </div>
 </div>
 
 
