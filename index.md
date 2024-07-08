@@ -45,7 +45,7 @@ An operating system is like the manager of a computer. It handles everything the
 
 
 ### How OS Uses Data Structures and Algorithms ?
-Data structures play a crucial role in operating systems by enabling efficient storage and retrieval of data. They are fundamental components that help the operating system perform various tasks such as job scheduling, memory management, storing instructions, and managing resources effectively. Operating systems rely on different data structures to organize and manipulate data efficiently, enhancing performance and optimizing resource utilization.
+Data structures play a important role in operating systems by enabling efficient storage and retrieval of data. They are fundamental components that help the operating system perform various tasks such as job scheduling, memory management, storing instructions, and managing resources effectively. Operating systems rely on different data structures to organize and manipulate data efficiently, enhancing performance and optimizing resource utilization.
 
 ## Following Business cases are identified and presented.
 (Click on the cards to know more)
@@ -105,13 +105,13 @@ These days, everyone is focused on optimization, whether it involves VNF schedul
       <img src="https://github.com/PragatiDBhat/Portfolio/assets/163662545/cc783bfa-5f44-496a-8ced-8acfee28c8bf" alt="Whale Optimization" style="max-width: 100%; height: auto; border-radius: 8px;">
     </td>
     <td style="padding: 20px; width: 60%; vertical-align: top;">
-      <p>The Whale Optimization Algorithm (WOA) is a nature-inspired optimization technique. It mimics the hunting behavior of humpback whales, particularly their unique bubble-net feeding strategy.The WOA is used to solve optimization problems in various fields, including engineering, economics, and computer science.</p>
+      <p>The Whale Optimization Algorithm (WOA) is a nature-inspired optimization technique. It mimics the hunting behavior of whales, particularly their unique bubble-net feeding strategy.The WOA is used to solve optimization problems in various fields, including engineering, economics, and computer science.[1]</p>
     </td>
   </tr>
 </table>
 
 
-### Key Features of the Whale Optimization Algorithm 
+### Features of the Whale Optimization Algorithm 
 
 1. **Encircling Prey:** Whales identify the location of prey and encircle it. In WOA, this behavior is modeled mathematically to update the positions of search agents.
 
@@ -121,14 +121,6 @@ These days, everyone is focused on optimization, whether it involves VNF schedul
 
 3. **Search for Prey (Exploration):** To ensure a balance between exploration and exploitation, WOA randomly selects between shrinking encircling and spiral updating positions. This stochastic behavior helps in diversifying the search agents' movements, avoiding local optima.
 
-### Applications
-
-WOA has been successfully applied to various fields, including:
-- Engineering design optimization
-- Feature selection in machine learning
-- VNF scheduling and consolidation
-- Image processing
-- Robotics
 
 The algorithm's simplicity, flexibility, and efficiency make it a popular choice for solving complex optimization problems.[WOA](https://github.com/PragatiDBhat/Portfolio/blob/main/Codes/whaleoptimisation.cpp)
 
