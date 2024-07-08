@@ -142,8 +142,8 @@ The algorithm's simplicity, flexibility, and efficiency make it a popular choice
 | **Worst-fit (Bin-Packing)**           | O(n log n)                                     | O(n)                                          |
 | **Aho-Corasick Algorithm**            | Build: O(m), Search: O(n + z)                  | O(m)                                          |
 | **Binary Search Tree**                | Insert/Delete/Search: O(log n) avg, O(n) worst | O(n)                                          |
-| **Dijkstra's Algorithm**              | O((V + E) log V)                               | O($\ V^2$)                                    |
-| **Ant Colony Optimization Algorithm** | O($\ n^3$) per iteration                       | O($\ n^2$)                                    |
+| **Dijkstra's Algorithm**              | O((V + E) log V)                               | O(V^2)                                        |
+| **Ant Colony Optimization Algorithm** | O(n^3) per iteration                           | O(n^2)                                        |
 | **A\* Search Algorithm**              | O(E)                                           | O(E)                                          |
 | **Bellman-Ford Algorithm**            | O(VE)                                          | O(V)                                          |
 | **Trie Data Structure**               | Insert/Search: O(m)                            | O(m) per node                                 |
@@ -152,20 +152,20 @@ The algorithm's simplicity, flexibility, and efficiency make it a popular choice
 | **BFS and DFS**                       | O(V + E)                                       | O(V)                                          |
 | **Skip List**                         | Insert/Delete/Search: O(log n)                 | O(n)                                          |
 | **Union-Find**                        | Union/Find: O(α(n))                            | O(n)                                          |
-| **Stable Marriage Problem**           | O($\ n^2$)                                     | O($\ n^2$)                                    |
+| **Stable Marriage Problem**           | O(n^2)                                         | O(n^2)                                        |
 | **Topological Sorting**               | O(V + E)                                       | O(V)                                          |
 | **Kruskal's Algorithm**               | O(E log E)                                     | O(E + V)                                      |
 | **Heap Data Structure**               | Insert/Delete/Extract-Min: O(log n)            | O(n)                                          |
 | **Fenwick Trees**                     | Build: O(n log n), Update/Query: O(log n)      | O(n)                                          |
-| **Floyd-Warshall Algorithm**          | O($\ V^3$)                                     | O($\ V^2$)                                    |
-| **Traveling Salesman Problem**        | O($\ n^2 * 2^n$)                               | O($\ n * 2^n$)                                |
-| **Ford-Fulkerson**                    | O($\ E \cdot f $)                              | O(V + E)                                      |
+| **Floyd-Warshall Algorithm**          | O(V^3)                                         | O(V^2)                                        |
+| **Traveling Salesman Problem**        | O(n^2 * 2^n)                                   | O(n * 2)                                      |
+| **Ford-Fulkerson**                    | O(E \cdot f)                                   | O(V + E)                                      |
 | **Round-Robin Scheduling**            | O(1) per switch                                | O(n)                                          |
-| **Rod-Cutting Problem**               | O($\ n^2$)                                     | O(n)                                          |
+| **Rod-Cutting Problem**               | O(n^2)                                         | O(n)                                          |
 | **Sliding Window**                    | O(n)                                           | O(k)                                          |
-| **Jump Search**                       | O($\sqrt{n}$)                                  | O(1)                                          |
+| **Jump Search**                       | O(sqrt{n})                                     | O(1)                                          |
 | **Johnson-Trotter Algorithm**         | O(n!)                                          | O(n)                                          |
-| **Longest Common Subsequence**        | O($\ m \cdot n $)                              | O($\ m \cdot n $)                             |
+| **Longest Common Subsequence**        | O(m \cdot n)                                   | O(m \cdot n )                             |
 
 
 ## References
