@@ -51,7 +51,7 @@
 ### How OS Uses Data Structures and Algorithms ?
 Data structures play a crucial role in operating systems by enabling efficient storage and retrieval of data. They are fundamental components that help the operating system perform various tasks such as job scheduling, memory management, storing instructions, and managing resources effectively. Operating systems rely on different data structures to organize and manipulate data efficiently, enhancing performance and optimizing resource utilization.
 
-## Foloowing Business cases are identified and presented.
+## Following Business cases are identified and presented.
 
 ### Resource management
 Efficiently allocating CPU, memory, and I/O resources ensures that business applications run smoothly without interference, maximizing productivity. Some of the algorithms that can be used for this functionality are:
