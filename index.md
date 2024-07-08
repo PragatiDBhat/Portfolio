@@ -159,13 +159,13 @@ The algorithm's simplicity, flexibility, and efficiency make it a popular choice
 | **Fenwick Trees**                     | Build: O(n log n), Update/Query: O(log n)      | O(n)                                          |
 | **Floyd-Warshall Algorithm**          | O(V^3)                                         | O(V^2)                                        |
 | **Traveling Salesman Problem**        | O(n^2 * 2^n)                                   | O(n * 2)                                      |
-| **Ford-Fulkerson**                    | O(E \cdot f)                                   | O(V + E)                                      |
+| **Ford-Fulkerson**                    | O(E . f)                                       | O(V + E)                                      |
 | **Round-Robin Scheduling**            | O(1) per switch                                | O(n)                                          |
 | **Rod-Cutting Problem**               | O(n^2)                                         | O(n)                                          |
 | **Sliding Window**                    | O(n)                                           | O(k)                                          |
 | **Jump Search**                       | O(sqrt{n})                                     | O(1)                                          |
 | **Johnson-Trotter Algorithm**         | O(n!)                                          | O(n)                                          |
-| **Longest Common Subsequence**        | O(m \cdot n)                                   | O(m \cdot n )                             |
+| **Longest Common Subsequence**        | O(m . n)                                       | O(m . n)                                      |
 
 
 ## References
